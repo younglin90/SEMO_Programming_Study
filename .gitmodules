@@ -1,0 +1,12 @@
+[submodule "3rd-party/Mach7"]
+	path = 3rd-party/Mach7
+	url = https://github.com/solodon4/Mach7.git
+[submodule "3rd-party/range-v3"]
+	path = 3rd-party/range-v3
+	url = https://github.com/ericniebler/range-v3.git
+[submodule "3rd-party/json"]
+	path = 3rd-party/json
+	url = https://github.com/nlohmann/json.git
+[submodule "3rd-party/Catch2"]
+	path = 3rd-party/Catch2
+	url = https://github.com/catchorg/Catch2.git
