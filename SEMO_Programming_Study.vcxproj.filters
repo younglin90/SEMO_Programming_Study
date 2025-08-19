@@ -13,10 +13,185 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="헤더 파일\ipc">
+      <UniqueIdentifier>{272f9987-eb4f-454c-ab5c-bb79ee5d25f5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="main_Morton_codes.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_index_rearange.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ranges.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main3.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main4.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main5_module_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_osqp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_autodiff_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_osqp2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test6.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ipc_distance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ipc_test1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_ipc_rigid.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\utils\sinc.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\physics\rigid_body_assembler.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\physics\rigid_body.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\physics\rigid_body_problem.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\SimpleBVH\BVH.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\utils\mesh_selector.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\physics\mass.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\edge_edge.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\distance_type.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\edge_edge_mollifier.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\line_line.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\point_edge.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\point_line.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\point_plane.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\point_point.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc\distance\point_triangle.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\SimpleBVH\Morton.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\interval\interval_root_finder.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\interval\filib_rounding.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\autodiff\autodiff.cpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClCompile>
+    <ClCompile Include="main_profile.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd-party\MMeter\src\MMeter.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="3rd-party\iprof.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_two_circle_barrier_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ipc_rigid\finite-diff\finitediff.cpp">
+      <Filter>헤더 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_shell_eq_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_barrier_friction_eq_test.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_shell_eq.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_least_square_ibm_test1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_flux_jacobian.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_libsuperlu_dist.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_hypre.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_libsuperlu_dist2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main_trilinos.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ipc_rigid\utils\sinc.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc_rigid\physics\rigid_body_assembler.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc_rigid\physics\rigid_body.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc_rigid\physics\rigid_body_problem.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc_rigid\physics\simulation_problem.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ipc_rigid\autodiff\autodiff_types.hpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\ipc_rigid\physics\rigid_body_assembler.tpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </None>
+    <None Include="src\ipc_rigid\physics\rigid_body.tpp">
+      <Filter>헤더 파일\ipc</Filter>
+    </None>
   </ItemGroup>
 </Project>

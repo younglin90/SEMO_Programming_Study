@@ -1,0 +1,7 @@
+{
+  "dependencies": [
+    "abseil",
+    "eigen3",
+    "gtest"
+  ]
+}
